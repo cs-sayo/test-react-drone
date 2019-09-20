@@ -1,0 +1,9 @@
+kind: pipeline
+type: docker
+name: default
+
+steps:
+- name: build
+  image: docker/whalesay
+  commands:
+  - cowsay \"5 mana. Teferi.\" by Matsuoka
