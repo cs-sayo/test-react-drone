@@ -9,15 +9,7 @@ steps:
   - cowsay \"5 mana. Teferi.\" by Matsuoka
 
 trigger:
-  branch:
-  - master
   event:
   - push
-  - pull_request
-  - tag
-  - promote
-  - rollback
-  repo:
-  - cs-sayo/test-react-drone
   status:
   - failure
