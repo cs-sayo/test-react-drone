@@ -19,3 +19,5 @@ trigger:
   - rollback
   repo:
   - cs-sayo/test-react-drone
+  status:
+  - failure
