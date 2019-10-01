@@ -9,7 +9,5 @@ steps:
   - cowsay \"5 mana. Teferi.\" by Matsuoka
 
 trigger:
-  event:
-  - push
   status:
   - failure
